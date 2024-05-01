@@ -22,8 +22,8 @@ A
   
 
 [![Status](https://img.shields.io/badge/status-active-success.svg)]()
-[![GitHub Issues](https://img.shields.io/github/issues/romulushill/Neural-Gov)](https://github.com/romulushill/Neural-Gov/issues)
-[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/romulushill/Social-Network)](https://github.com/romulushill/Neural-Gov/pulls)
+[![GitHub Issues](https://img.shields.io/github/issues/Robottik-Software/Neural-Gov)](https://github.com/Robottik-Software/Neural-Gov/issues)
+[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/Robottik-Software/Neural-Gov)](https://github.com/Robottik-Software/Neural-Gov/pulls)
 [![License](https://img.shields.io/badge/license-GNU-blue.svg)](/LICENSE)
 </div>
 
@@ -77,4 +77,4 @@ Not Yet Applicable.
 - [@romulushill](https://github.com/romulushill) - Founder & Lead
 - R&D At Robottik Software
 
-See also the list of [contributors](https://github.com/romulushill/Neural-Gov/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/Robottik-Software/Neural-Gov/contributors) who participated in this project.
