@@ -61,21 +61,21 @@ Neural-Gov framework is detailed below for better execution and understanding of
 
 ### Networks
 
-- General Network
-    Receives a score, from underlying networks, for all attributes of a proposition. E.g. (Social Impact, Environmental Impact, Financial Impact, Political Impact)
+#### General Network
+- Receives a score, from underlying networks, for all attributes of a proposition. E.g. (Social Impact, Environmental Impact, Financial Impact, Political Impact)
 
-- Sentiment Analysis Network
-    Determines the sentiment of a set of nodes. E.g. (Positive, Negative, Unchanging)
-    Receives these nodes directly from the Textual Analysis Network
+#### Sentiment Analysis Network
+- Determines the sentiment of a set of nodes. E.g. (Positive, Negative, Unchanging)
+- Receives these nodes directly from the Textual Analysis Network
 
-- Textual Analysis Network
-    Provided with phrases, from the Phrase Analysis Network, to assemble a boolean logical representation of particular phrases within the Proposition.
+#### Textual Analysis Network
+- Provided with phrases, from the Phrase Analysis Network, to assemble a boolean logical representation of particular phrases within the Proposition.
 
-- Phrase Analysis Network
-    Provided with the entire proposition via the mainloop, the Phrase Analysis Network works to identify phrases within the proposition. E.g. the network would acquire: ```"more diverse workforce"``` from the proposition: ```"Implement a more diverse workforce by lowering the qualification requirements"```
+#### Phrase Analysis Network
+- Provided with the entire proposition via the mainloop, the Phrase Analysis Network works to identify phrases within the proposition. E.g. the network would acquire: ```"more diverse workforce"``` from the proposition: ```"Implement a more diverse workforce by lowering the qualification requirements"```
 
-- Tokenisation Network
-    Receives the proposition in string format and tokenises the entire string into individual characters, then returns it back into a list of words and punctuation.
+#### Tokenisation Network
+- Receives the proposition in string format and tokenises the entire string into individual characters, then returns it back into a list of words and punctuation.
 
 ## 🏁 Getting Started <a name = "getting_started"></a>
 
