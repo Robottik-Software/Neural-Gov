@@ -13,9 +13,7 @@ sid = SentimentIntensityAnalyzer()
 class GovernmentNN(tf.keras.Model):
     def __init__(self):
         super(GovernmentNN, self).__init__()
-        self.dense1 = tf.keras.layers.Dense(
-            6, activation="relu"
-        )  # Adjusted to match the number of features
+        self.dense1 = tf.keras.layers.Dense(5, activation="relu")  # Adjusted to match the number of features
         self.dense2 = tf.keras.layers.Dense(32, activation="relu")
         self.dense3 = tf.keras.layers.Dense(1, activation="sigmoid")
 
@@ -38,7 +36,6 @@ def preprocess_proposition(proposition):
         "Social Impact",
         "Environmental Impact",
         "Political Impact",
-        "Other",
     ]
 
     # Perform one-hot encoding for categorical attributes
