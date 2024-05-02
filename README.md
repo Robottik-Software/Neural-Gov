@@ -83,13 +83,15 @@ Not Yet Applicable.
 Contact Robottik Software for more information/help/investment into research projects.
 
 ### Prerequisites
-
-Not Yet Applicable.
+- Python 3.12.3
+- Virtual Environment Advised
+- [Requirements](https://github.com/robottik-software/Neural-Gov/blob/main/requirements.txt)
 
 ### Installing
-
-Not Yet Applicable.
-
+- ```python -m venv .venv```
+- ```.venv\Scripts\activate```
+- ```pip install -r requirements.txt```
+- ```server\main.py```
 
 ## ⛏️ Built By <a name = "built_by"></a>
 
